@@ -1,0 +1,58 @@
+              {/* Leading Choice Block - Moved Above Packages */}
+              <div className="max-w-4xl mx-auto mb-12 border-[6px] border-[#349896] rounded-[30px] p-8 bg-white text-center shadow-lg">
+                <h2 className="text-3xl md:text-4xl font-black text-black mb-8 leading-tight">
+                  The <span className="text-[#349896] border-b-4 border-[#349896]">Leading Choice</span> for<br/>
+                  Advanced Nerve Health Support<br/>
+                  <span className="text-2xl md:text-3xl font-bold text-gray-700 mt-2 block">Trusted by Experts</span>
+                </h2>
+                
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                  {/* Dr. Oz */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-[#349896] mb-4 shadow-md">
+                      <img src="/images/experts/dr_oz.webp" alt="Dr. Mehmet Oz" className="w-full h-full object-cover" />
+                    </div>
+                    <h3 className="font-bold text-xl text-gray-900">Dr. Mehmet Oz</h3>
+                    <p className="text-sm text-[#349896] font-bold mb-3 uppercase tracking-wide">Cardiothoracic Surgeon</p>
+                    <div className="text-gray-600 text-sm italic leading-relaxed relative px-2">
+                      <span className="text-4xl text-gray-300 absolute -top-4 -left-2">"</span>
+                      Natural approaches to nerve health are crucial. Ingredients that support microcirculation and reduce oxidative stress are key to long-term relief.
+                      <span className="text-4xl text-gray-300 absolute -bottom-6 -right-2">"</span>
+                    </div>
+                  </div>
+
+                  {/* Dr. Eric Berg */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-[#349896] mb-4 shadow-md">
+                      <img src="/images/experts/dr_berg.webp" alt="Dr. Eric Berg" className="w-full h-full object-cover" />
+                    </div>
+                    <h3 className="font-bold text-xl text-gray-900">Dr. Eric Berg</h3>
+                    <p className="text-sm text-[#349896] font-bold mb-3 uppercase tracking-wide">Chiropractor & Health Educator</p>
+                    <div className="text-gray-600 text-sm italic leading-relaxed relative px-2">
+                      <span className="text-4xl text-gray-300 absolute -top-4 -left-2">"</span>
+                      Addressing the root cause of neuropathy often involves fixing nutritional deficiencies. Alpha Lipoic Acid and B-Vitamins are essential for nerve repair.
+                      <span className="text-4xl text-gray-300 absolute -bottom-6 -right-2">"</span>
+                    </div>
+                  </div>
+
+                  {/* Dr. Josh Axe */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-[#349896] mb-4 shadow-md">
+                      <img src="/images/experts/dr_axe.webp" alt="Dr. Josh Axe" className="w-full h-full object-cover" />
+                    </div>
+                    <h3 className="font-bold text-xl text-gray-900">Dr. Josh Axe</h3>
+                    <p className="text-sm text-[#349896] font-bold mb-3 uppercase tracking-wide">Certified Doctor of Natural Medicine</p>
+                    <div className="text-gray-600 text-sm italic leading-relaxed relative px-2">
+                      <span className="text-4xl text-gray-300 absolute -top-4 -left-2">"</span>
+                      Don't just mask the pain. Feed your nerves the nutrients they need to regenerate. Plant-based antioxidants are powerful tools for nerve recovery.
+                      <span className="text-4xl text-gray-300 absolute -bottom-6 -right-2">"</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mt-10 pt-6 border-t border-gray-100">
+                  <p className="text-lg text-gray-800 leading-relaxed max-w-2xl mx-auto">
+                    We understand that trying something new can be daunting. That's why we provide a <span className="font-bold">60-Day full satisfaction guarantee</span>, allowing you to test it without any risk.
+                  </p>
+                </div>
+              </div>
